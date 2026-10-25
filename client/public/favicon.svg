@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <!-- Shield base -->
+  <path d="M50 5 L88 20 C88 56 68 85 50 95 C32 85 12 56 12 20 Z" fill="url(#shieldGrad)" stroke="#F59E0B" stroke-width="2.5" />
+  <!-- Inner border -->
+  <path d="M50 12 L81 24 C81 53 64 78 50 86 C36 78 19 53 19 24 Z" fill="none" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1.5" />
+  <!-- Ascending Aaroh Arrow / Peak (Aaroh means ascent) -->
+  <path d="M50 25 L68 55 H56 V72 H44 V55 H32 Z" fill="url(#goldGrad)" />
+  <!-- Academic Open Book at bottom -->
+  <path d="M50 63 C42 60 33 62 26 67 C33 71 42 70 50 72 C58 70 67 71 74 67 C67 62 58 60 50 63 Z" fill="#FFFFFF" opacity="0.95" />
+  <!-- Guiding Star -->
+  <polygon points="50,18 52,22 56,23 53,26 54,30 50,28 46,30 47,26 44,23 48,22" fill="#FCD34D" />
+</svg>

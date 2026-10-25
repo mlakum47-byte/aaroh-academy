@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
+  <defs>
+    <linearGradient id="galGrad_Mentorship" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#galGrad_Mentorship)" />
+  
+  <rect x="20" y="20" width="460" height="310" rx="14" fill="#F472B6" opacity="0.12" stroke="#CBD5E1" stroke-width="1.5" />
+  <circle cx="250" cy="140" r="55" fill="#FFFFFF" opacity="0.95" />
+  <text x="228" y="155" font-size="44">✍️</text>
+
+  <!-- Tag Pill -->
+  <rect x="190" y="215" width="120" height="28" rx="14" fill="#F59E0B" />
+  <text x="250" y="234" text-anchor="middle" fill="#0A192F" font-family="Inter, sans-serif" font-weight="700" font-size="12">MENTORSHIP</text>
+
+  <!-- Title -->
+  <text x="250" y="278" text-anchor="middle" fill="#FFFFFF" font-family="Poppins, sans-serif" font-weight="700" font-size="18">Personal Doubt Mentorship</text>
+  <text x="250" y="302" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="13">Aaroh Academy Campus Experience</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <defs>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#cg)" />
+  <circle cx="360" cy="40" r="90" fill="rgba(245, 158, 11, 0.08)" />
+  <circle cx="40" cy="200" r="80" fill="rgba(255, 255, 255, 0.05)" />
+  
+  <!-- Icon container -->
+  <circle cx="200" cy="85" r="45" fill="#8B5CF6" opacity="0.2" />
+  <circle cx="200" cy="85" r="35" fill="#FFFFFF" />
+  <text x="184" y="97" font-size="30">🚀</text>
+
+  <!-- Title & Subtitle -->
+  <text x="200" y="155" text-anchor="middle" fill="#FFFFFF" font-family="Poppins, sans-serif" font-weight="700" font-size="20">Competitive Entrance Prep</text>
+  <text x="200" y="180" text-anchor="middle" fill="#F59E0B" font-family="Inter, sans-serif" font-weight="600" font-size="13">Target JEE, NEET & Olympiads</text>
+
+  <!-- Bottom Accent bar -->
+  <rect x="140" y="205" width="120" height="4" rx="2" fill="#F59E0B" />
+</svg>
