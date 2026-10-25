@@ -120,7 +120,7 @@ export default function Navbar({ onEnquireClick }) {
             aria-label={`${ACADEMY_CONFIG.name} Homepage`}
           >
             <img
-              src="/images/logo.svg"
+              src={`${import.meta.env.BASE_URL}images/logo.svg`}
               alt="Aaroh Academy Emblem"
               className="navbar-logo"
               width="44"

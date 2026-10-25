@@ -4,6 +4,8 @@
  * (Identified placeholders for development)
  */
 
+const base = import.meta.env.BASE_URL || '/';
+
 export const FACULTY_DATA = [
   {
     id: 'fac-1',
@@ -12,7 +14,7 @@ export const FACULTY_DATA = [
     subject: 'Senior Physics Faculty & Academic Director',
     experienceYears: '14+ Years Experience',
     bio: 'Specialist in Mechanics, Electrodynamics, and problem decomposition for JEE Advanced and Boards.',
-    image: '/images/faculty/faculty-alok-sharma.svg',
+    image: `${base}images/faculty/faculty-alok-sharma.svg`,
     speciality: 'Conceptual Physics & Olympiad Training',
   },
   {
@@ -22,7 +24,7 @@ export const FACULTY_DATA = [
     subject: 'Senior Chemistry Faculty',
     experienceYears: '12+ Years Experience',
     bio: 'Known for demystifying organic reaction mechanisms and visual physical chemistry approaches.',
-    image: '/images/faculty/faculty-sunita-mehra.svg',
+    image: `${base}images/faculty/faculty-sunita-mehra.svg`,
     speciality: 'Organic & Inorganic Chemistry',
   },
   {
@@ -32,7 +34,7 @@ export const FACULTY_DATA = [
     subject: 'Senior Mathematics Faculty',
     experienceYears: '15+ Years Experience',
     bio: 'Pioneer of step-by-step calculus mastery, trigonometry simplification, and competitive algebra.',
-    image: '/images/faculty/faculty-rajesh-verma.svg',
+    image: `${base}images/faculty/faculty-rajesh-verma.svg`,
     speciality: 'Calculus, Vectors & Algebra',
   },
   {
@@ -42,7 +44,7 @@ export const FACULTY_DATA = [
     subject: 'Senior Biology Faculty',
     experienceYears: '10+ Years Experience',
     bio: 'Focuses on NCERT line-by-line synthesis, diagrams, mnemonics, and high-yield NEET biology prep.',
-    image: '/images/faculty/faculty-neha-kapoor.svg',
+    image: `${base}images/faculty/faculty-neha-kapoor.svg`,
     speciality: 'Cell Biology, Genetics & Human Physiology',
   },
 ];

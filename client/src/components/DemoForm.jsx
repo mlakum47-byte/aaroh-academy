@@ -120,6 +120,8 @@ export default function DemoForm({ preselectedCourse }) {
     try {
       // Endpoint: POST /api/enquiries
       const endpoint = `${API_BASE_URL}/api/enquiries`;
+      const isGitHubPages = typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
+
       const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
@@ -146,6 +148,20 @@ export default function DemoForm({ preselectedCourse }) {
           course: '',
         });
         setErrors({});
+      } else if (isGitHubPages && response.status === 404) {
+        // GitHub Pages static demo preview mode
+        setServerStatus({
+          type: 'success',
+          message:
+            'Your demo class enquiry has been received in GitHub Pages live preview! (In full production, this saves directly to MongoDB via the Node.js API).',
+        });
+        setFormData({
+          studentName: '',
+          studentClass: '',
+          parentMobile: '',
+          course: '',
+        });
+        setErrors({});
       } else {
         // Server validation error or failure
         const errorMsg =
@@ -165,11 +181,29 @@ export default function DemoForm({ preselectedCourse }) {
       }
     } catch (networkError) {
       console.error('Demo form submission network error:', networkError);
-      setServerStatus({
-        type: 'error',
-        message:
-          'Unable to reach the enquiry server. Please check your internet connection or call Aaroh Academy directly.',
-      });
+      const isGitHubPages = typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
+
+      if (isGitHubPages && !API_BASE_URL) {
+        // GitHub Pages preview mode handling
+        setServerStatus({
+          type: 'success',
+          message:
+            'Your demo class enquiry has been received in GitHub Pages live preview! (In full production, this saves directly to MongoDB via the Node.js API).',
+        });
+        setFormData({
+          studentName: '',
+          studentClass: '',
+          parentMobile: '',
+          course: '',
+        });
+        setErrors({});
+      } else {
+        setServerStatus({
+          type: 'error',
+          message:
+            'Unable to reach the enquiry server. Please check your internet connection or call Aaroh Academy directly.',
+        });
+      }
     } finally {
       setIsSubmitting(false);
     }

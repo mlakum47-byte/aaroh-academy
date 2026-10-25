@@ -5,6 +5,18 @@
 
 ---
 
+## 🌐 Live Website on GitHub Pages
+
+The website is set up for automatic live deployment on GitHub Pages:
+👉 **[https://mlakum47-byte.github.io/aaroh-academy/](https://mlakum47-byte.github.io/aaroh-academy/)**
+
+### 1-Minute Activation in GitHub Settings:
+1. Open your repository Pages settings: [github.com/mlakum47-byte/aaroh-academy/settings/pages](https://github.com/mlakum47-byte/aaroh-academy/settings/pages).
+2. Under **Build and deployment > Source**, choose **GitHub Actions**.
+3. The included GitHub Actions workflow (`.github/workflows/deploy.yml`) will automatically build the client with Vite and publish it live!
+
+---
+
 ## 1. Project Overview
 
 Aaroh Academy's web platform communicates academic excellence, trust, discipline, and student success. The application features an end-to-end demo booking system, dynamic course directories, interactive achievement counters, faculty credentials, a responsive student/parent testimonial carousel, an accessible single-expand FAQ accordion, a categorized campus life gallery with an accessible lightbox modal, and an embedded campus map with quick WhatsApp/phone connectivity.

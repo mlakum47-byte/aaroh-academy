@@ -3,6 +3,8 @@
  * Exactly 4 primary learning paths as specified
  */
 
+const base = import.meta.env.BASE_URL || '/';
+
 export const COURSES_DATA = [
   {
     id: 'class-6-8',
@@ -18,7 +20,7 @@ export const COURSES_DATA = [
       'Weekly assessments & monthly parent reviews',
       'Small batch size of max 15 students',
     ],
-    image: '/images/courses/course-class-6-8.svg',
+    image: `${base}images/courses/course-class-6-8.svg`,
   },
   {
     id: 'class-9-10',
@@ -34,7 +36,7 @@ export const COURSES_DATA = [
       'Bi-weekly board pattern simulated test series',
       'Dedicated one-on-one doubt resolution clinics',
     ],
-    image: '/images/courses/course-class-9-10.svg',
+    image: `${base}images/courses/course-class-9-10.svg`,
   },
   {
     id: 'class-11-12',
@@ -50,7 +52,7 @@ export const COURSES_DATA = [
       'Periodic cumulative mock exams with rank analysis',
       'Personal academic mentor assigned per student',
     ],
-    image: '/images/courses/course-class-11-12.svg',
+    image: `${base}images/courses/course-class-11-12.svg`,
   },
   {
     id: 'competitive-prep',
@@ -66,6 +68,6 @@ export const COURSES_DATA = [
       'Daily Practice Problem (DPP) sets with video solutions',
       'Faculty-led error analysis sessions',
     ],
-    image: '/images/courses/course-competitive.svg',
+    image: `${base}images/courses/course-competitive.svg`,
   },
 ];

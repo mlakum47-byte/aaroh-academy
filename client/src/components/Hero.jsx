@@ -46,7 +46,7 @@ export default function Hero({ preselectedCourse }) {
           {/* Educational Hero Visual */}
           <div className="hero-image-wrapper">
             <img
-              src="/images/hero-illustration.svg"
+              src={`${import.meta.env.BASE_URL}images/hero-illustration.svg`}
               alt="Students mastering concepts and formulas in modern smart classroom at Aaroh Academy"
               className="hero-image"
               width="600"

@@ -40,7 +40,7 @@ export default function Footer({ onCourseClick }) {
           <div className="footer-col footer-col-brand">
             <div className="footer-brand-header">
               <img
-                src="/images/logo.svg"
+                src={`${import.meta.env.BASE_URL}images/logo.svg`}
                 alt="Aaroh Academy Crest"
                 className="footer-logo"
                 width="48"
