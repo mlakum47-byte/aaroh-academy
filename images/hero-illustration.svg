@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" rx="20" fill="url(#bgGrad)" />
+  
+  <!-- Classroom chalkboard / digital board background -->
+  <rect x="50" y="40" width="500" height="300" rx="16" fill="url(#cardGrad)" stroke="#CBD5E1" stroke-width="2" />
+  <!-- Grid lines on board -->
+  <line x1="50" y1="120" x2="550" y2="120" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <line x1="50" y1="200" x2="550" y2="200" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <line x1="50" y1="280" x2="550" y2="280" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  
+  <!-- Educational Math & Science Formulas -->
+  <text x="80" y="85" fill="#F59E0B" font-family="Poppins, sans-serif" font-weight="700" font-size="20">E = mc²</text>
+  <text x="210" y="85" fill="#93C5FD" font-family="Poppins, sans-serif" font-weight="600" font-size="16">F = ma</text>
+  <text x="320" y="85" fill="#FFFFFF" font-family="Poppins, sans-serif" font-weight="600" font-size="16">∫ f(x)dx</text>
+  <text x="440" y="85" fill="#FCD34D" font-family="Poppins, sans-serif" font-weight="700" font-size="18">λ = h/p</text>
+  
+  <!-- Central Graduation & Academic Crest -->
+  <circle cx="300" cy="200" r="75" fill="rgba(245, 158, 11, 0.15)" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 4" />
+  <circle cx="300" cy="200" r="55" fill="#0A192F" stroke="#F59E0B" stroke-width="2.5" />
+  
+  <!-- Mortarboard Icon -->
+  <polygon points="300,175 335,190 300,205 265,190" fill="#F59E0B" />
+  <path d="M275 200 V218 C275 228 325 228 325 218 V200" fill="#FCD34D" />
+  <line x1="335" y1="190" x2="345" y2="215" stroke="#FFFFFF" stroke-width="2" />
+  <circle cx="345" cy="216" r="3" fill="#FFFFFF" />
+
+  <!-- Orbiting Science Atom Rings -->
+  <ellipse cx="300" cy="200" rx="95" ry="32" fill="none" stroke="#60A5FA" stroke-width="2" transform="rotate(-30 300 200)" />
+  <ellipse cx="300" cy="200" rx="95" ry="32" fill="none" stroke="#F59E0B" stroke-width="2" transform="rotate(30 300 200)" />
+  <circle cx="215" cy="170" r="6" fill="#60A5FA" />
+  <circle cx="385" cy="230" r="6" fill="#F59E0B" />
+
+  <!-- Floating Achievement Badges -->
+  <g transform="translate(70, 240)">
+    <rect width="130" height="50" rx="10" fill="#FFFFFF" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))" />
+    <circle cx="25" cy="25" r="14" fill="#FEF3C7" />
+    <text x="20" y="30" font-size="14">🎯</text>
+    <text x="46" y="22" fill="#0F172A" font-family="Inter, sans-serif" font-weight="700" font-size="11">Concept Clarity</text>
+    <text x="46" y="36" fill="#64748B" font-family="Inter, sans-serif" font-size="9">100% Focused</text>
+  </g>
+
+  <g transform="translate(400, 240)">
+    <rect width="130" height="50" rx="10" fill="#FFFFFF" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))" />
+    <circle cx="25" cy="25" r="14" fill="#E0E7FF" />
+    <text x="20" y="30" font-size="14">⭐</text>
+    <text x="46" y="22" fill="#0F172A" font-family="Inter, sans-serif" font-weight="700" font-size="11">Top Mentorship</text>
+    <text x="46" y="36" fill="#64748B" font-family="Inter, sans-serif" font-size="9">Expert Faculty</text>
+  </g>
+
+  <!-- Bottom desk & books stack -->
+  <rect x="180" y="360" width="240" height="18" rx="4" fill="#0A192F" />
+  <rect x="200" y="378" width="200" height="35" rx="3" fill="#CBD5E1" />
+  <!-- Book 1 -->
+  <rect x="220" y="342" width="160" height="18" rx="3" fill="#1E3A8A" />
+  <!-- Book 2 -->
+  <rect x="235" y="324" width="130" height="18" rx="3" fill="#F59E0B" />
+  <!-- Book 3 -->
+  <rect x="250" y="306" width="100" height="18" rx="3" fill="#10B981" />
+</svg>
